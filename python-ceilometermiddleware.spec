@@ -11,6 +11,7 @@ BuildArch:      noarch
 
 BuildRequires:	python-setuptools
 BuildRequires:  python2-devel
+BuildRequires:  python-pbr
 
 Requires:       python-babel >= 1.3
 Requires:       python-oslo-utils
@@ -18,7 +19,6 @@ Requires:       python-oslo-messaging >= 1.4.0
 Requires:       python-oslo-context >= 0.1.0
 Requires:       python-oslo-messaging
 Requires:       python-oslo-config
-Requires:       python-pbr
 Requires:       python-pycadf >= 0.6.0
 Requires:       python-six >= 1.7.0
 
