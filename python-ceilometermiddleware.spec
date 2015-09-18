@@ -1,8 +1,8 @@
 %global pypi_name ceilometermiddleware
 
 Name:           python-ceilometermiddleware
-Version:	0.3.0
-Release:	1%{?dist}
+Version:	XXX
+Release:	XXX
 Summary:        OpenStack Telemetry middleware for generating metrics
 License:	ASL 2.0
 URL:		http://github.com/openstack/ceilometermiddleware
@@ -38,7 +38,7 @@ This library provides middleware modules designed to enable metric and event dat
 generation to be consumed by Ceilometer.
 
 %prep
-%setup -q -n %{pypi_name}-%{version}
+%setup -q -n %{pypi_name}-%{upstream_version}
 
 %build
 %{__python2} setup.py build
@@ -57,13 +57,5 @@ generation to be consumed by Ceilometer.
 
 
 %changelog
-* Fri Sep 18 2015 Haikel Guemar <hguemar@fedoraproject.org> - 0.3.0-1
-- Update to upstream 0.3.0
-
-* Thu Jun 18 2015 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.1.0-2
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_23_Mass_Rebuild
-
-* Fri Jun 12 2015 Pradeep Kilambi <pkilambi@redhat.com> 0.1.0-1
-- initial package release
 
 
