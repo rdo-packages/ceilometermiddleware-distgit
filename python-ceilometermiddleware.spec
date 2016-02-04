@@ -2,7 +2,7 @@
 
 Name:           python-ceilometermiddleware
 Version:	0.3.0
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:        OpenStack Telemetry middleware for generating metrics
 License:	ASL 2.0
 URL:		http://github.com/openstack/ceilometermiddleware
@@ -57,6 +57,9 @@ generation to be consumed by Ceilometer.
 
 
 %changelog
+* Thu Feb 04 2016 Fedora Release Engineering <releng@fedoraproject.org> - 0.3.0-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_24_Mass_Rebuild
+
 * Fri Sep 18 2015 Haikel Guemar <hguemar@fedoraproject.org> - 0.3.0-1
 - Update to upstream 0.3.0
 
