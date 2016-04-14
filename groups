@@ -1,5 +1,5 @@
-# UUID          Group Name
-6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
-2a3b8fbe87d513f25d30b3d9d69b57f00080c1c0       	ceilometermiddleware-distgit-core
-dde53b71f5b7ac66d1e5a866926155d385670cdc        	ceilometermiddleware-distgit-ptl
-global:Registered-Users		Registered Users
+# UUID                                  	Group Name
+#
+2a3b8fbe87d513f25d30b3d9d69b57f00080c1c0	ceilometermiddleware-distgit-core
+dde53b71f5b7ac66d1e5a866926155d385670cdc	openstack/ceilometermiddleware-distgit-ptl
+global:Registered-Users                 	Registered Users
