@@ -2,8 +2,8 @@
 %global pypi_name ceilometermiddleware
 
 Name:           python-ceilometermiddleware
-Version:	XXX
-Release:	XXX
+Version:	0.5.0
+Release:	1%{?dist}
 Summary:        OpenStack Telemetry middleware for generating metrics
 License:	ASL 2.0
 URL:		http://github.com/openstack/ceilometermiddleware
@@ -58,5 +58,8 @@ generation to be consumed by Ceilometer.
 
 
 %changelog
+* Fri Sep 16 2016 Haikel Guemar <hguemar@fedoraproject.org> 0.5.0-1
+- Update to 0.5.0
+
 
 
