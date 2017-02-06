@@ -16,20 +16,20 @@ BuildRequires:  python-pbr
 # Required for running tests
 BuildRequires:  python-mock
 BuildRequires:  python-babel >= 1.3
-BuildRequires:  python-oslo-config >= 2.3.0
+BuildRequires:  python-oslo-config >= 2:3.9.0
 BuildRequires:  python-oslo-context >= 0.2.0
 BuildRequires:  python-oslo-utils >= 2.0.0
-BuildRequires:  python-oslo-messaging >= 1.17.1
+BuildRequires:  python-oslo-messaging >= 5.2.0
 BuildRequires:  python-oslotest
 BuildRequires:  python-pycadf >= 1.1.0
 BuildRequires:  python-six >= 1.9.0
 BuildRequires:  python-testscenarios
 
 Requires:       python-babel >= 1.3
-Requires:       python-oslo-config >= 2.3.0
+Requires:       python-oslo-config >= 2:3.9.0
 Requires:       python-oslo-context >= 0.2.0
 Requires:       python-oslo-utils >= 2.0.0
-Requires:       python-oslo-messaging >= 1.17.1
+Requires:       python-oslo-messaging >= 5.2.0
 Requires:       python-pbr
 Requires:       python-pycadf >= 1.1.0
 Requires:       python-six >= 1.9.0
