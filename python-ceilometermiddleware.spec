@@ -60,3 +60,4 @@ generation to be consumed by Ceilometer.
 %changelog
 
 
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/ceilometermiddleware/commit/?id=fb5c1939783752719261c2952140f2e8942db25d
