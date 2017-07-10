@@ -33,6 +33,8 @@ Requires:       python-oslo-messaging >= 1.17.1
 Requires:       python-pbr
 Requires:       python-pycadf >= 1.1.0
 Requires:       python-six >= 1.9.0
+Requires:       python-keystoneauth1 >= 2.10.0
+Requires:       python-keystoneclient >= 2.0.0
 
 %description
 This library provides middleware modules designed to enable metric and event data 
