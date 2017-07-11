@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9aa7fdbe_e59a7e13",
+        "filename": "python-ceilometermiddleware.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2017-07-11T15:49:37Z",
+      "side": 1,
+      "message": "According to https://github.com/openstack/ceilometermiddleware/blob/master/requirements.txt#L11-L12 we should use more recent versions.",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 46
+      },
+      "revId": "dc56ef32013133d211c3c2a1469f18b2af36af97",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
