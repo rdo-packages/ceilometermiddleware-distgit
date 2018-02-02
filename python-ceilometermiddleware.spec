@@ -10,31 +10,31 @@ URL:		http://github.com/openstack/ceilometermiddleware
 Source0:	https://tarballs.openstack.org/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
 BuildArch:      noarch
 
-BuildRequires:	python-setuptools
+BuildRequires:	python2-setuptools
 BuildRequires:  python2-devel
-BuildRequires:  python-pbr
+BuildRequires:  python2-pbr
 # Required for running tests
-BuildRequires:  python-mock
-BuildRequires:  python-babel >= 1.3
-BuildRequires:  python-oslo-config >= 2:3.9.0
-BuildRequires:  python-oslo-context >= 0.2.0
-BuildRequires:  python-oslo-utils >= 2.0.0
-BuildRequires:  python-oslo-messaging >= 5.2.0
-BuildRequires:  python-oslotest
-BuildRequires:  python-pycadf >= 1.1.0
-BuildRequires:  python-six >= 1.9.0
+BuildRequires:  python2-mock
+BuildRequires:  python2-oslo-config >= 2:3.9.0
+BuildRequires:  python2-oslo-utils >= 2.0.0
+BuildRequires:  python2-oslo-messaging >= 5.2.0
+BuildRequires:  python2-oslotest
+BuildRequires:  python2-pycadf >= 1.1.0
+BuildRequires:  python2-six >= 1.9.0
+%if 0%{?fedora} > 0
+BuildRequires:  python2-testscenarios
+%else
 BuildRequires:  python-testscenarios
+%endif
 
-Requires:       python-babel >= 1.3
-Requires:       python-oslo-config >= 2:3.9.0
-Requires:       python-oslo-context >= 0.2.0
-Requires:       python-oslo-utils >= 2.0.0
-Requires:       python-oslo-messaging >= 5.2.0
-Requires:       python-pbr
-Requires:       python-pycadf >= 1.1.0
-Requires:       python-six >= 1.9.0
-Requires:       python-keystoneauth1 >= 2.18.0
-Requires:       python-keystoneclient >= 3.8.0
+Requires:       python2-oslo-config >= 2:3.9.0
+Requires:       python2-oslo-utils >= 2.0.0
+Requires:       python2-oslo-messaging >= 5.2.0
+Requires:       python2-pbr
+Requires:       python2-pycadf >= 1.1.0
+Requires:       python2-six >= 1.9.0
+Requires:       python2-keystoneauth1 >= 2.18.0
+Requires:       python2-keystoneclient >= 3.8.0
 
 %description
 This library provides middleware modules designed to enable metric and event data 
