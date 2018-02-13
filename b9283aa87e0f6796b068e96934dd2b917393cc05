@@ -1,0 +1,9 @@
+Verified-1: Jenkins CI <admin@rpmfactory.beta.rdoproject.org>
+Code-Review+2: hguemar <hguemar@fedoraproject.org>
+Verified+2: hguemar <hguemar@fedoraproject.org>
+Workflow+1: hguemar <hguemar@fedoraproject.org>
+Submitted-by: hguemar <hguemar@fedoraproject.org>
+Submitted-at: Tue, 13 Feb 2018 12:24:35 +0000
+Reviewed-on: https://review.rdoproject.org/r/12128
+Project: openstack/ceilometermiddleware-distgit
+Branch: refs/heads/queens-rdo
