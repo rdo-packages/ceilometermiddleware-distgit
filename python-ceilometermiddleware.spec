@@ -5,8 +5,8 @@
 %endif
 
 Name:           python-%{pypi_name}
-Version:	XXX
-Release:	XXX
+Version:	1.5.0
+Release:	1%{?dist}
 Summary:        OpenStack Telemetry middleware for generating metrics
 License:	ASL 2.0
 URL:		http://github.com/openstack/%{pypi_name}
@@ -115,5 +115,8 @@ generation to be consumed by Ceilometer.
 %endif
 
 %changelog
+* Mon Sep 23 2019 RDO <dev@lists.rdoproject.org> 1.5.0-1
+- Update to 1.5.0
+
 
 
