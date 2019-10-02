@@ -60,7 +60,7 @@ generation to be consumed by Ceilometer.
 %setup -q -n %{pypi_name}-%{upstream_version}
 
 %build
-%{pyver_bin} setup.py build
+%{pyver_build}
 
 %install
 %{pyver_install}
