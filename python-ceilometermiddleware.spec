@@ -44,7 +44,7 @@ BuildRequires:  python%{pyver}-six >= 1.9.0
 BuildRequires:  python%{pyver}-testscenarios
 
 Requires:       python%{pyver}-oslo-config >= 2:3.9.0
-Requires:       python%{pyver}-oslo-utils >= 2.0.0
+Requires:       python%{pyver}-oslo-utils
 Requires:       python%{pyver}-oslo-messaging >= 5.2.0
 Requires:       python%{pyver}-pbr
 Requires:       python%{pyver}-pycadf >= 1.1.0
