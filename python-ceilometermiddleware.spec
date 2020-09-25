@@ -3,8 +3,8 @@
 %global pypi_name ceilometermiddleware
 
 Name:           python-%{pypi_name}
-Version:	XXX
-Release:	XXX
+Version:	2.1.0
+Release:	1%{?dist}
 Summary:        OpenStack Telemetry middleware for generating metrics
 License:	ASL 2.0
 URL:		http://github.com/openstack/%{pypi_name}
@@ -64,3 +64,6 @@ python3 setup.py test ||:
 %{python3_sitelib}/%{pypi_name}*.egg-info
 
 %changelog
+* Fri Sep 25 2020 RDO <dev@lists.rdoproject.org> 2.1.0-1
+- Update to 2.1.0
+
