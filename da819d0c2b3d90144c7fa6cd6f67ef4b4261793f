@@ -16,6 +16,24 @@
       "message": "it\u0027s missing openstackdocstheme which add sphinx and other deps",
       "revId": "da819d0c2b3d90144c7fa6cd6f67ef4b4261793f",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f89c40b_0a12c0a2",
+        "filename": "python-ceilometermiddleware.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-06-30T12:17:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aa2aea8e_7afefb30",
+      "revId": "da819d0c2b3d90144c7fa6cd6f67ef4b4261793f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
