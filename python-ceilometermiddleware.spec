@@ -47,6 +47,7 @@ generation to be consumed by Ceilometer.
 %endif
 %setup -q -n %{pypi_name}-%{upstream_version}
 
+sed -i 's/^deps = -/deps = \n       -/g' tox.ini
 sed -i /.*-c{env:.*_CONSTRAINTS_FILE.*/d tox.ini
 sed -i /^minversion.*/d tox.ini
 sed -i /^requires.*virtualenv.*/d tox.ini
