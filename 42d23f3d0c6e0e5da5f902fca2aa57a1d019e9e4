@@ -1,0 +1,8 @@
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Joel Capitao <jcapitao@redhat.com>
+Workflow+1: Joel Capitao <jcapitao@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Thu, 30 May 2024 08:53:05 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/ceilometermiddleware-distgit/+/53346
+Project: openstack/ceilometermiddleware-distgit
+Branch: refs/heads/rpm-master
