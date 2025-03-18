@@ -7,8 +7,8 @@
 %global pypi_name ceilometermiddleware
 
 Name:           python-%{pypi_name}
-Version:	XXX
-Release:	XXX
+Version:	3.6.1
+Release:	1%{?dist}
 Summary:        OpenStack Telemetry middleware for generating metrics
 License:	Apache-2.0
 URL:		http://github.com/openstack/%{pypi_name}
@@ -80,3 +80,6 @@ done
 %{python3_sitelib}/%{pypi_name}*.dist-info
 
 %changelog
+* Tue Mar 18 2025 RDO <dev@lists.rdoproject.org> 3.6.1-1
+- Update to 3.6.1
+
