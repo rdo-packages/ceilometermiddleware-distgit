@@ -80,3 +80,4 @@ done
 %{python3_sitelib}/%{pypi_name}*.dist-info
 
 %changelog
+# REMOVEME: error caused by commit https://opendev.org/openstack/ceilometermiddleware/commit/01718681a86ef42da527323cf29ff5a1b8573a4c
